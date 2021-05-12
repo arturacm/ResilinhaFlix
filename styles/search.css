@@ -41,6 +41,9 @@ footer{
     flex-wrap: wrap;
     align-items: center;
 }
+#prevPg, #nextPg{
+    display:none;
+}
 img{
     margin: 10px
 }
