@@ -3,10 +3,18 @@ var page = 0;
 
 function start(){
     page = 1;
+    searchAPI();
+}
+function nextPage(){
+    page++;
+    searchAPI();
+}
+
+function searchAPI(){
     let search = $("#search").val().trim()
     $(".searchResult").html("")
     console.log(search)
-    $.ajax({url: url+"&s="+ search,
+    $.ajax({url: url+"&s="+ search + "&page=" + page,
     success: (result)=>{
         console.log(result)
         display(result);
@@ -26,15 +34,3 @@ function display(obj){
     }
 }
 
-function nextPage(){
-
-    $.ajax({url: url+"&s="+ search,
-    success: (result)=>{
-        console.log(result)
-        display(result);
-    },
-    error: ()=>{
-        alert("The selected day is not available")
-    }
-    })
-}
