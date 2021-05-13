@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    background-image: url("ArcoIrisPequeno.jpeg");
+    background-size: cover;
+}
+
+header {
+    background-color: #ff8;
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+    color: #FF0000;
+    font-size: 42px;
+    min-height: 10vh;
+    text-align: center;
+
+}
+#imagem {
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+    margin-top: 5vh;
+    height: 42vh;
+    width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#foto{
+    height: 42vh;
+    width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-radius: 12px;
+
+}
+#botoes {
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botao1, #botao2 {
+    width: 175px;
+    margin: 0.5vh;
+    border: solid;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+#info {
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+    margin-top: 5vh;
+    min-height: 18vh;
+    min-width: 28vh;
+    max-width: 72vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
