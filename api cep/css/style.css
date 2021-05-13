@@ -1,0 +1,44 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(200, 27, 206);
+}
+
+header{
+    height: 50px;
+    background-color: #f32bb7;   
+}
+p{
+    text-align: center;
+   font-size: 300%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+    width: 30vw
+}
+form input{
+    margin-top: 30px;
+    padding-left: 15px;
+    border-radius: 1px solid black;
+    border-radius: 15px;
+    height: 30px;
+}
+#uf{
+    height:30px;
+    width:100px;
+}
+button{
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+}
+footer{
+    height: auto;
+    background-color: #C4C4C4;
+    
+}
