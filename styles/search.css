@@ -37,6 +37,7 @@ footer{
 }
 
 .searchResult{
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -46,4 +47,12 @@ footer{
 }
 img{
     margin: 10px
+}
+.searchResultItem{
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c4;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
 }
