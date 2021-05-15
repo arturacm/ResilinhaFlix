@@ -33,9 +33,24 @@ footer{
 }
 img{
     margin-right: 10px;
+    border-radius: 20px;
 }
 /* img:hover{
     transform: scale(1.2);
     border: 2px black solid;
     transition: 200ms all;
 } */
+/* 
+.searchResultItem{
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c4;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+} */
+.items{
+    width: 90vw;
+    margin: 5px auto;
+
+}

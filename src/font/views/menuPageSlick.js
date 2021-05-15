@@ -5,6 +5,7 @@ $('.items').slick({
     slidesToShow: 5,
     slidesToScroll: 3,
     variableWidth: true,
+    arrows:true,
     infinite:true,
     dots: true,
     focusOnSelect: true,
