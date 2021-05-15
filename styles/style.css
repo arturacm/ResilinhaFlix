@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #6D3EA2;
+}
 header{
     height: 50px;
     background-color: #b0fff4;    
@@ -18,7 +21,6 @@ form{
 form input{
     margin-top: 20px;
     padding-left: 10px;
-    border-radius: 1px solid black;
     border-radius: 15px;
     height: 30px;
 }
@@ -26,9 +28,46 @@ form input{
     width: 80%;
     margin: 20px auto;
     height: 40px;
+    background-color: #7DCE94;
 }
 footer{
     height: 50px;
     background-color: #C4C4C4;
     
+}
+.navbar {
+    background-color: #059DE1;
+    
+}
+
+.logo {
+    width: 40%;
+    margin-left: 55%;
+    margin-right: 20px;
+}
+.divFormulario{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    margin-left: 49%;
+    margin-top: 0;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding-top: 5px;
+
+}
+.btn-cor {
+    background-color: #FA9371;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+}
+h1{
+    font-family: 'Chewy', cursive;
+    font-size: 50pt;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
 }
