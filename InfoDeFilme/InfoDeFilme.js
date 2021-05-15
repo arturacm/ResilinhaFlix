@@ -1,31 +1,18 @@
-$(`#botao1`).click(function() {
+let btn = document.getElementById("botao1")
 
-        $.ajax({
-            url: 'https://m.media-amazon.com/images/M/MV5BMGY5MzU3MzItNDBjMC00YjQzLWEzMTUtMGMxMTEzYjhkMGNkXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg',
+btn.onclick = function () {
+    let input = document.getElementById("input").value
+    let url = "http://www.omdbapi.com/?i=tt3896198&apikey=90a81d4f"
 
-            success: function(result) {
+    axios.get(url + "&t=" + input) 
+    .then(function(response) {
+    console.log(response.data)
+    let imagem = document.getElementById("imagem2")
+    imagem.setAttribute("src", response.data.Poster)
 
-            if(result.media_type == '"image"'){
-
-
-                $('#info').html(result.explanation);
-    
-                $('#foto').html(`<img src="${result.url}">`);
-    
-                $('#copyright').html(result.copyright);
-            }
-
-            else{
-    
-                $('#info').html(result.explanation);
-    
-                $('#foto').html(`<iframe src="${result.url}">`)
-    
-                $('#copyright').html(result.copyright);
-            }
-            }
-
-        })
-});
-
-    
+    let informacoes = document.querySelector("#info").firstChild
+    //let texto = document.createTextNode(response.data.Plot)
+    informacoes.textContent = response.data.Plot
+        
+})
+}
