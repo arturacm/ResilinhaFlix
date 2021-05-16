@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #6D3EA2;
+    background-image: url("/bg2.svg");
 }
 header{
     height: 50px;
@@ -41,18 +41,11 @@ footer{
 }
 
 .logo {
-    width: 40%;
-    margin-left: 55%;
-    margin-right: 20px;
 }
 .divFormulario{
     background-color: white;
     display: flex;
-    width: 50%;
-    margin-left: 49%;
-    margin-top: 0;
     border-radius: 50px;
-    margin-right: 10px;
     padding-top: 5px;
 
 }
@@ -67,7 +60,13 @@ h1{
     font-family: 'Chewy', cursive;
     font-size: 50pt;
     color: white;
-    display: flex;
-    flex-direction: column;
-    margin-right: 50%;
+}
+.background {
+    background-color: #059DE1;
+}
+#botaoHome{
+    margin-left: 120px;
+}
+#logoResilia{
+
 }
