@@ -1,26 +1,27 @@
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
-    background-image: url("ArcoIrisPequeno.jpeg");
+    background-image: url("bg1.svg");
     background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    color: #FFFfff;
 }
 
 header {
-    background-color: #ff8;
-    border: solid;
     border-color: black;
-    border-radius: 12px;
-    color: #FF0000;
+    border-radius: 50px;
+    color: #FFFfff;
     font-size: 42px;
     min-height: 10vh;
     text-align: center;
 
 }
 #imagem {
-    border: solid;
-    border-color: black;
-    border-radius: 12px;
+    
     margin-top: 5vh;
     height: 42vh;
     width: 38vh;
@@ -34,28 +35,31 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    border-radius: 12px;
+   
 
 }
 #botoes {
     margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 #botao1, #botao2 {
-    width: 175px;
+    width: 250px;
     margin: 0.5vh;
-    border: solid;
-    border-radius: 8px;
+    border: #407950;
+    border-radius: 50px;
     text-align: center;
+    background-color: #7DCE94;
+    
     
 }
 
 #info {
-    border: solid;
+    border: solid 2px;
     border-color: black;
-    border-radius: 12px;
+    border-radius: 50px;
     margin-top: 5vh;
     min-height: 18vh;
     min-width: 28vh;
@@ -63,5 +67,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     
+}
 
+.background {
+    background-color: #059DE1;
+}
+
+#botaoHome{
+    margin-left: 120px;
 }
