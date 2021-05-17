@@ -6,7 +6,19 @@ function display(obj){
     
     for(let i = 0; i < obj.Search.length; i++){
         //console.log(obj.Search[i].Title)
-        $(".searchResult").append(`<div class="searchResultItem"><img src="${obj.Search[i].Poster}" alt = "${obj.Search[i].Title} "><h3>${obj.Search[i].Title} </h3></div>`)
+        $(".searchResult").append(`
+        <div onclick = "redirect('${obj.Search[i].Title}')" class="searchResultItem">
+        <img src="${obj.Search[i].Poster}" alt = "${obj.Search[i].Title} ">
+        <h3>${obj.Search[i].Title} </h3>
+        </div>`)
             //obj.Search[i].Title
     }
+}
+function redirect (id){
+    
+    localStorage.setItem("movieID",id)
+    // alert(localStorage.getItem("movieID"));
+    window.location.href="./InfoDeFilme/InfoDeFilme.html" 
+    
+    
 }
