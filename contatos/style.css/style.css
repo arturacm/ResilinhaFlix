@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    align-items:center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 10000px;
+}
+
+.menu{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px ;
+    background-color: yellow;
+}
+.menu:hover {
+    text-align: center;
+    color: black;
+    transition: 3s;
+    font-size: 50px;
+    
+}
+.container div {
+
+    height: 30px;
+width:230px;
+border: 1 px solid black;
+padding: 20px;
+
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    background-color:rgb(240, 239, 187);
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    max-width: 1500px;
+    font-size: 14px;
