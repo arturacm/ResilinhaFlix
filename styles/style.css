@@ -34,22 +34,12 @@ form input{
     font-size: x-large;
     border-color: #7DCE94; 
 }
-#inputEmail{
-    font-family: 'Nunito', sans-serif;
-    font-size: x-large;
-}
-footer{
-    height: 50px;
-    background-color: #C4C4C4;
-    
-}
+
 .navbar {
     background-color: #059DE1;
     
 }
 
-.logo {
-}
 .divFormulario{
     background-color: white;
     display: flex;
@@ -74,6 +64,7 @@ h1{
     color: white;
     margin-top: 50%;
 }
+
 .background {
     background-color: #059DE1;
 }
