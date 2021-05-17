@@ -27,8 +27,16 @@ form input{
 #submit{
     width: 80%;
     margin: 20px auto;
-    height: 40px;
+    height: 60px;
+    border-radius: 50px;
     background-color: #7DCE94;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    border-color: #7DCE94; 
+}
+#inputEmail{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
 }
 footer{
     height: 50px;
@@ -50,11 +58,15 @@ footer{
 
 }
 .btn-cor {
-    background-color: #FA9371;
-    color: white;
     width: 80%;
     margin: 20px auto;
     height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    background-color: #FA9371;
+    color:rgb(68, 68, 68);
+    
 }
 h1{
     font-family: 'Chewy', cursive;
@@ -68,6 +80,4 @@ h1{
 #botaoHome{
     margin-left: 120px;
 }
-#logoResilia{
 
-}
