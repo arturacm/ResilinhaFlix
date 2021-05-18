@@ -14,14 +14,6 @@
 //             //obj.Search[i].Title
 //     }
 // }
-function redirect(id) {
-
-    localStorage.setItem("movieID", id)
-    // alert(localStorage.getItem("movieID"));
-    window.location.href = "./InfoDeFilme/InfoDeFilme.html"
-
-
-}
 
 class SearchView {
     constructor() {
@@ -47,7 +39,7 @@ class SearchView {
             for (let i = 0; i < obj.Search.length; i++) {
 
                 $(".searchResult").append(`
-                <div onclick = "redirect('${obj.Search[i].Title}')" class="searchResultItem">
+                <div onclick = "redirect('${obj.Search[i].imdbID}')" class="searchResultItem">
                 <img src="${obj.Search[i].Poster}" alt = "${obj.Search[i].Title} ">
                 <h3>${obj.Search[i].Title} </h3>
                 </div>`)
