@@ -65,7 +65,7 @@ footer{
 }
 #logradouro, #complemento {
     margin-left: 1.5vh;
-    width: 32.8vh;
+    width: 31.9vh;
     padding-right: 2vh;
 }
 #estado {
@@ -74,7 +74,7 @@ footer{
     color: rgb(0, 0, 0);
     font-size: 18px;
     vertical-align: middle;
-    width: 8vh;
+    width: 7.4vh;
 }
 #formulario {
     margin:auto;
