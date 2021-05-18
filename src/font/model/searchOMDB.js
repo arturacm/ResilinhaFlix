@@ -1,5 +1,5 @@
 // function searchAPI(){
-    
+
 //     let search = $("#search").val().trim()
 //     $(".searchResult").html("")
 //     console.log(search)
@@ -20,45 +20,37 @@
 //     })
 // }
 
-class SearchAPI{
-    constructor(){
+class SearchAPI {
+    constructor() {
         this.resposta;
         this.page = 1;
         this.modo = "&s=";
         this.url = "http://www.omdbapi.com/?apikey=40078a35";
     }
-    setSearch(search){
-        this.search = search
+    setSearch(search) {
+        this.search = "'" + search + "'";
     }
-    iniciar(){
-        //$(".searchResult").html("")
-        let resultado = new Array();
+    iniciar() {
+
+        //requisição na API
+
         console.log(this.search)
-        let url = this.url+ this.modo + this.search + "&page=" + this.page
-        console.log(url)
-        $.ajax({url: url,
-        
-        async: false,
-        success: (result)=>{
-            console.log(result)
-            if (result.Response == "True"){
+        let url = this.url + this.modo + this.search + "&page=" + this.page;
+        console.log(url);
 
-            //    resultado.push(...result);
-            // console.log(result)
+        $.ajax({
+            url: url,
+            async: false,
+            success: (result) => {
+                console.log(result);
+                asyncFix(result);
 
-               gambiarraAsync(result)
+            },
+            error: () => {
+                alert("Algo de errado com a base de filmes");
             }
-            else{
-                if(page == 1)$(".searchResult").html("<h1>Nenhum resultado para essa busca. Tente novamente.</h1>")
-                else $("#nextPg").hide()
-            }
-        },
-        error: ()=>{
-            alert("The selected day is not available")
-        }
         })
-        this.resposta = resultado 
-        // console.log(this.resposta)
+
     }
 
 }

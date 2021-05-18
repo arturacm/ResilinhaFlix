@@ -25,15 +25,14 @@ class SearchController{
     start(){
         this.model.setSearch($("#search").val().trim())
         this.model.page = 1;
-        this.model.iniciar()
+        this.view.page = 1;
+        this.model.iniciar();
         // this.view.display(this.model.resposta)
     
     }
-    receberOBJ(obj){
-
-    }
     nextPage(){
-        this.model.page++
+        this.model.page++;
+        this.view.page++;
         this.model.iniciar()
         // this.view.display(this.model.resposta)
 
@@ -41,7 +40,8 @@ class SearchController{
 
     prevPage(){
         if(this.model.page>1){
-            this.model.page--
+            this.model.page--;
+            this.view.page--;
             this.model.iniciar()
             //this.view.display(this.model.resposta)
         }
@@ -49,10 +49,10 @@ class SearchController{
 
 }
 
-function gambiarraAsync(obj){
-    console.log(obj)
+function asyncFix(obj){
+    console.log(obj);
     
-    searchController.view.display(obj)
+    searchController.view.display(obj);
 
 }
 
