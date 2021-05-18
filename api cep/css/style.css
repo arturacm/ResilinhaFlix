@@ -5,7 +5,7 @@
 
 body{
     background-color: rgb(200, 27, 206);
-    background-image: url("/bg1.svg");
+    background-image: url("../../imagens/bg1.svg");
     background-size: cover;
 }
 
