@@ -13,9 +13,25 @@ document.addEventListener("DOMContentLoaded", function () {
     let imagem = document.getElementById("imagem2")
     imagem.setAttribute("src", response.data.Poster)
 
+
+    let title = document.getElementById("titulo")
+    title.textContent = response.data.Title
+
+    let year = document.getElementById("ano")
+    year.textContent = 'lançamento: ' + response.data.Released
+
     let informacoes = document.querySelector("#info").firstChild
-    //let texto = document.createTextNode(response.data.Plot)
-    informacoes.textContent = response.data.Plot
+    informacoes.textContent = 'Descrição: ' + response.data.Plot
+
+    let rated = document.getElementById("classificacao")
+    rated.textContent = 'Classificação: ' + response.data.Rated
+
+    let genre = document.getElementById("genero")
+    genre.textContent = 'Gênero: ' + response.data.Genre
+    
+    let runtime = document.getElementById("duracao")
+    runtime.textContent = 'Duração: ' + response.data.Runtime
+
         
 })
 })
