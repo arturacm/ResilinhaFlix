@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
-    background-image: url("bg1.svg");
+    background-image: url("/InfoDeFilme/bg3.svg");
     background-size: cover;
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
@@ -30,7 +30,7 @@ header {
 
 }
 #foto{
-    height: 42vh;
+    height: 32vh;
     width: 38vh;
     margin-left: auto;
     margin-right: auto;
@@ -57,15 +57,12 @@ header {
 }
 
 #info {
-    border: solid 2px;
-    border-color: black;
-    border-radius: 50px;
-    margin-top: 5vh;
-    min-height: 18vh;
-    min-width: 28vh;
-    max-width: 72vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
+    font-family: 'Nunito', sans-serif;
     
 }
 
@@ -73,6 +70,31 @@ header {
     background-color: #059DE1;
 }
 
-#botaoHome{
+#botaoHome {
     margin-left: 120px;
+}
+
+.d-flex {
+    border-radius: 50px;
+    padding: 2vh;
+    
+}
+#flexbox2 {
+    
+    flex-direction: column;
+    padding: 1vh;
+
+}
+
+#contFlex {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    min-width: 100vh;
+    max-width: 100vh;
+}
+
+#classificacao, #genero, #duracao  {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
 }
