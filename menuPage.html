@@ -10,34 +10,53 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./src/font/views/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./src/font/views/slick/slick-theme.css" />
-    <title>ResilinhaFlix</title>
+    <title>ResiliaFlix Para Crianças</title>
 </head>
 
 <body>
 
-    <nav class="navbar">
+
+    <div class="container-fluid background">
+        <div class="nav navbar">
+          <div class="col-10">
+            <img id="botaoHome" src="/imagens/logo-navbar.svg" alt="" width="170" height="70">
+          </div>
+            <div class="col-2">
+              <img id="botaoLupa" src="/imagens/lupa.svg" alt="" width="70" height="70">
+                <img id="botaoUser" src="/imagens/usuario.svg" alt="" width="70" height="70">
+            </div> 
+        </div>
+      </div>
+<!--   <nav class="navbar">
         <div class="d-flex justify-content-evenly navbar-brand">
             <a class="navbar-brand" href="./menuPage.html">
-                <img src="home.svg" alt="" width="50" height="50" class="user">
+                <img src="/imagens/logo-navbar.svg" alt="" width="50" height="50" class="user">
             </a>
             <a class="navbar-brand" href="./search.html">
 
-                <img src="lupa.svg" alt="pagina de pesquisa" width="50" height="50" class="lupa">
+                <img src="/imagens/lupa.svg" alt="pagina de pesquisa" width="50" height="50" class="lupa">
             </a>
             <a class="navbar-brand" href="#">
 
-                <img src="usuario.svg" alt="" width="50" height="50" class="user">
+                <img src="/imagens/usuario.svg" alt="" width="50" height="50" class="user">
             </a>
-
-
-
+            
         </div>
     </nav>
+>
+--> 
+
     <main>
-        <div class="title">
-            <h2>ResiliaFlix para crianças é diversão garantida!</h2>
-            <h1> O que vamos assistir hoje?</h1>
+        <div class="container">
+        <div class="title col-12 ">
+            <h2 class="diversãoGarantida">Luz... Câmera... e Ação!</h2>
+            <div class="container">
+            <div class="col-12">
+            <h1 class="assistirHoje"> O que vamos assistir hoje?</h1>
         </div>
+    </div>
+        </div>
+    </div>
 
         <!-- <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -81,23 +100,19 @@
             </button>
         </div> -->
 
-        <h2>Disney - Mickey Mouse</h2>
+        <h2 class="titulosFilmes">Disney - Mickey Mouse</h2>
         <div class="items" id="mickey">
 
 
 
         </div>
-
-        <h2>Barbie</h2>
-        <div class="items " id="Barbie">
-
-
-
+            <h2 class="titulosFilmes">Barbie</h2>
+            <div class="items " id="Barbie">
         </div>
 
-
-
-
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#FDCB5E" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,96C384,64,480,64,576,90.7C672,117,768,171,864,197.3C960,224,1056,224,1152,192C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
 
     </main>
     <!-- <footer></footer> -->
@@ -113,7 +128,13 @@
     </script>
     <script src="./src/font/model/modelMenuPageOMDB.js"></script>
     <script src="./src/font/views/viewMenuPageOMDB.js"></script>
+<<<<<<< HEAD
     <script src="./src/font/controllers/redirect.js"></script>
 </body>
+=======
+>>>>>>> main
 
+
+
+</body>
 </html>
