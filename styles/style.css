@@ -10,7 +10,8 @@ header{
     background-color: #b0fff4;    
 }
 main{
-    height: calc(80vh - 100px);
+    /* height: calc(80vh - 100px); */
+    height: ;
 }
 form{
     display: flex;
