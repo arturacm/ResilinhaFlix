@@ -1,0 +1,100 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    background-image: url("/InfoDeFilme/bg3.svg");
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    color: #FFFfff;
+}
+
+header {
+    border-color: black;
+    border-radius: 50px;
+    color: #FFFfff;
+    font-size: 42px;
+    min-height: 10vh;
+    text-align: center;
+
+}
+#imagem {
+    
+    margin-top: 5vh;
+    height: 42vh;
+    width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#foto{
+    height: 32vh;
+    width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+   
+
+}
+#botoes {
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#botao1, #botao2 {
+    width: 250px;
+    margin: 0.5vh;
+    border: #407950;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #7DCE94;
+    
+    
+}
+
+#info {
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.background {
+    background-color: #059DE1;
+}
+
+#botaoHome {
+    margin-left: 120px;
+}
+
+.d-flex {
+    border-radius: 50px;
+    padding: 2vh;
+    
+}
+#flexbox2 {
+    
+    flex-direction: column;
+    padding: 1vh;
+
+}
+
+#contFlex {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    min-width: 100vh;
+    max-width: 100vh;
+}
+
+#classificacao, #genero, #duracao  {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
