@@ -1,8 +1,11 @@
 let btn = document.getElementById("botao1")
 
-btn.onclick = function () {
-    let input = document.getElementById("input").value
-    let url = "http://www.omdbapi.com/?apikey=90a81d4f"
+//tirando o botao e 
+document.addEventListener("DOMContentLoaded", function () {
+    // console.log(localStorage.getItem("movieID"))
+    //let input = document.getElementById("input").value
+    let input = localStorage.getItem("movieID")
+    let url = "http://www.omdbapi.com/?i=tt3896198&apikey=90a81d4f"
 
     axios.get(url + "&t=" + input) 
     .then(function(response) {
@@ -31,4 +34,4 @@ btn.onclick = function () {
 
         
 })
-}
+})
