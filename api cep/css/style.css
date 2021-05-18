@@ -5,40 +5,82 @@
 
 body{
     background-color: rgb(200, 27, 206);
+    background-image: url("/bg1.svg");
+    background-size: cover;
 }
 
-header{
-    height: 50px;
-    background-color: #f32bb7;   
-}
-p{
+h1{
     text-align: center;
-   font-size: 300%;
+    font-size: 300%;
+    vertical-align: middle;
+    margin: 4vh;
 }
 form{
     display: flex;
     flex-direction: column;
-    margin: 5vh auto;
-    width: 30vw
+    margin: auto;
+    width: 62vh;
+    padding: 0;
 }
 form input{
     margin-top: 30px;
     padding-left: 15px;
     border-radius: 1px solid black;
-    border-radius: 15px;
+    border-radius: 13px;
     height: 30px;
+
 }
 #uf{
     height:30px;
-    width:100px;
-}
-button{
-    width: 80%;
-    margin: 20px auto;
-    height: 40px;
+    width: 22vh;
+    padding-right: 0;
+    text-align:center;
+    vertical-align: middle;
+    border-radius: 13px;
+    
 }
 footer{
     height: auto;
     background-color: #C4C4C4;
     
+}
+#botaoHome {
+    margin-left: 120px;
+}
+.background {
+    background-color: #059DE1;
+}
+#botao {
+    width: 22.5vh;
+    height: 30px;
+    margin: 3vh;
+    margin-left: 0;
+    border: #407950;
+    border-radius: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #7DCE94;
+    font-size: 17px;
+}
+#logradouro, #complemento {
+    margin-left: 1.5vh;
+    width: 32.8vh;
+    padding-right: 2vh;
+}
+#estado {
+    margin-left: 1.5vh;
+    margin-right: 1vh;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    vertical-align: middle;
+    width: 8vh;
+}
+#formulario {
+    margin:auto;
+    padding: 2vh;
+    background-color: #6d3ea2;
+    border-radius: 13px;
+    border-style: groove;
+    border-width: 2.7px;
 }
