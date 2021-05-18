@@ -6,6 +6,9 @@ header{
     height: 50px;
     background-color: #b0fff4;    
 }
+body {
+    background-image: url("/imagens/bg2.svg");
+}
 main{
     height: calc(80vh - 100px);
 }
@@ -35,6 +38,13 @@ img{
     margin-right: 10px;
     border-radius: 20px;
 }
+h1{
+    font-family: 'Chewy', cursive;
+    font-size: 50pt;
+    color: white;
+    margin-top: 50%;
+}
+
 /* img:hover{
     transform: scale(1.2);
     border: 2px black solid;
@@ -53,4 +63,7 @@ img{
     width: 90vw;
     margin: 5px auto;
 
+}
+.background{
+    background-color: #059DE1;
 }
