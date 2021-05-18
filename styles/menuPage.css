@@ -12,12 +12,6 @@ body {
 main{
     height: calc(80vh - 100px);
 }
-
-footer{
-    height: 50px;
-    background-color: #C4C4C4;
-    
-}
 #carousel{
     text-align: center;
 }
@@ -38,13 +32,6 @@ img{
     margin-right: 10px;
     border-radius: 20px;
 }
-h1{
-    font-family: 'Chewy', cursive;
-    font-size: 50pt;
-    color: white;
-    margin-top: 50%;
-}
-
 /* img:hover{
     transform: scale(1.2);
     border: 2px black solid;
@@ -67,3 +54,24 @@ h1{
 .background{
     background-color: #059DE1;
 }
+.diversãoGarantida{
+    font-family: 'Nunito', sans-serif;
+    font-size: 60pt;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+.assistirHoje{
+        font-family: 'Chewy', cursive;
+        font-size: 50pt;
+        color: white;
+        margin-top: 4%;
+        text-align: center;
+ }
+ .titulosFilmes{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25pt;
+    color: white;
+    margin-top: 2%;
+    margin-left: 60px;
+ }
