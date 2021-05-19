@@ -81,3 +81,10 @@ form input{
     border-style: groove;
     border-width: 2.7px;
 }
+.footerbg{
+    background-color: #FDCB5E;
+    margin:0px;
+}
+h6{
+    text-align: center;
+}
