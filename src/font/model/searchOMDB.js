@@ -25,7 +25,7 @@ class SearchAPI {
         this.resposta;
         this.page = 1;
         this.modo = "&s=";
-        this.url = "http://www.omdbapi.com/?apikey=40078a35";
+        this.url = "https://www.omdbapi.com/?apikey=40078a35";
     }
     setSearch(search) {
         this.search = "'" + search + "'";
