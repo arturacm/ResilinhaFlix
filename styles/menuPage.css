@@ -32,6 +32,13 @@ img{
     margin-right: 10px;
     border-radius: 20px;
 }
+.imagens-slick img{
+    height: 450px;
+    width: auto;
+} 
+.modal-body img{
+    width: 100%;
+}
 /* img:hover{
     transform: scale(1.2);
     border: 2px black solid;
@@ -81,4 +88,26 @@ img{
 .footerbg {
     background-color: #FDCB5E;
     margin:0px;
+}
+.modal-content{
+    border-radius: 20px!important
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cor2 {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    background-color: #FA9371;
+    color:rgb(68, 68, 68);
+    
+
+    
 }
