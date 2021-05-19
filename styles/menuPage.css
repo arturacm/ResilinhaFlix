@@ -32,6 +32,10 @@ img{
     margin-right: 10px;
     border-radius: 20px;
 }
+.imagens-slick img{
+    height: 450px;
+    width: auto;
+} 
 /* img:hover{
     transform: scale(1.2);
     border: 2px black solid;
