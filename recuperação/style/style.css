@@ -1,24 +1,54 @@
-
-form{
-    text-align: center;
-    padding: 150px;
-    
+*, html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("/imagens/bg3.svg");
+    font-family: 'Nunito', sans-serif;
+    color:white
 }
 
-form input{
-margin-top: 20px;
-    padding-left: 200px;
-    border-radius: 1px solid black;
-    border-radius: 15px;
-    height: 30px;
-    text-align: center;
-    
-}
 #button{
     text-align: center;
-    position:absolute;
-top: 300px;
-left: 650px;
-height: 35px;
-    width: 100px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    background-color: #7DCE94;
+    color:rgb(68, 68, 68);
+    border:0;
+    border-radius: 50px;
+
 }
+.formularioEmail{
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+.background{
+    background-color: #059DE1;
+}
+.footerbg {
+    background-color: #FDCB5E;
+    margin:0px;
+}
+h6{
+    text-align: center;
+}
+.navbar {
+    background-color: #059DE1;
+    
+}
+.recuperaSenha{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    text-align: center;
+    margin-top: 2%;
+}
+.recuperaSenha2{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20pt;
+}
+
