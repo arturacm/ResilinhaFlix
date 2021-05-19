@@ -21,12 +21,41 @@ body{
 }
 
 .menu{
+    font-family: 'Nunito', sans-serif;
+    color:white;
     text-align: center;
     font-size: 30px;
     padding: 5px ;
-    background-color: yellow;
+
 }
-.menu:hover {
+
+.btn-cor {
+    width: 60%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    background-color: #24292E;
+    color:white;
+    margin-top: 0;
+
+    
+}
+.btn-cor2 {
+    width: 60%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    background-color: #0073B1;
+    color:white;
+    margin-top: 0;
+
+    
+}
+menu:hover {
     text-align: center;
     color: black;
     transition: 3s;
