@@ -36,6 +36,6 @@ $("#cep").focusout(function(){
 			  }
 		  
 			function insereTexto()
-			{document.getElementById('divTeste').innerHTML = 'Cadrastrado com Sucesso!!.';}
+			{document.getElementById('divTeste').innerHTML = alert('Cadrastrado com Sucesso!!.');}
 			
 			
