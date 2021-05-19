@@ -1,4 +1,4 @@
-/*
+
 $("#cep").focusout(function(){
 			//Início do Comando AJAX
 			$.ajax({
@@ -27,7 +27,7 @@ $("#cep").focusout(function(){
 			});
             });
 
-			*/
+			
 			function validarSenha() {
 				var senha1 = document.getElementById("senha");
 				var senha2 = document.getElementById("senhaTmp");
@@ -42,7 +42,7 @@ $("#cep").focusout(function(){
 				}
 			  }
 		  
-			/*function insereTexto()
-			{document.getElementById('divTeste').innerHTML = 'Cadrastrado com Sucesso!!.';}*/
+			function insereTexto()
+			{document.getElementById('divTeste').innerHTML = 'Cadrastrado com Sucesso!!.';}
 			
 			
