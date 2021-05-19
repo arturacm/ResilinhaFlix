@@ -71,4 +71,12 @@ h1{
 #botaoHome{
     margin-left: 120px;
 }
+h6{
+    text-align: center;
+    color: red;
+}
+.footerbg {
+    background-color: #FDCB5E;
+    margin:0px;
+}
 
