@@ -10,6 +10,8 @@ body{
 }
 
 h1{
+    font-family: 'Chewy', cursive;
+    color: white;
     text-align: center;
     font-size: 300%;
     vertical-align: middle;
@@ -37,11 +39,6 @@ form input{
     text-align:center;
     vertical-align: middle;
     border-radius: 13px;
-    
-}
-footer{
-    height: auto;
-    background-color: #C4C4C4;
     
 }
 #botaoHome {
