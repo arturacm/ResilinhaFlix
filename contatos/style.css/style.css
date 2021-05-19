@@ -1,10 +1,7 @@
 body{
-    background-color: blueviolet;
+    background-image: url("/imagens/bg1.svg");
 }
 
-h1{
-    text-align: center;
-}
 
 .container {
     display: flex;
@@ -16,7 +13,12 @@ h1{
     max-width: 10000px;
     
 }
-
+.textoContatos{
+    font-family: 'Chewy', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
 
 .menu{
     text-align: center;
@@ -50,4 +52,8 @@ padding: 20px;
     border: 1px solid #CCCCCC;
     margin: 0 auto;
     max-width: 1500px;
-    font-size: 14px;
+    font-size: 14px;}
+
+.background{
+    background-color: #059DE1;
+}
