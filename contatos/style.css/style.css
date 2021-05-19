@@ -9,17 +9,19 @@ h1{
 .container {
     display: flex;
     justify-content:center;
-    height: 100px;
+    height: 150px;
     align-items:center;
     margin: 0 auto;
     border: 1px solid #ccc;
     max-width: 10000px;
+    
 }
+
 
 .menu{
     text-align: center;
     font-size: 30px;
-    padding: 10px ;
+    padding: 5px ;
     background-color: yellow;
 }
 .menu:hover {
@@ -31,7 +33,7 @@ h1{
 }
 .container div {
 
-    height: 30px;
+    height: 60px;
 width:230px;
 border: 1 px solid black;
 padding: 20px;

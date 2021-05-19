@@ -10,13 +10,15 @@
 <body>
     
     <header>
-        <h1>ResilinhaFlix</h1>
+        <a href="./menuPage.html">
+            <h1>ResilinhaFlix</h1>
+        </a>
     </header>
     <main>
         <div class="searchBar">
             
             <input type="text" placeholder="Pesquise um filme ou serie"id="search">
-            <button onclick= "start()">Pesquisar</button>
+            <button onclick= "searchController.start()">Pesquisar</button>
         
         </div>
         
@@ -26,8 +28,8 @@
             
             </div>
             <div class="pageBtns">
-                <button id= "prevPg" onclick="prevPage()">Página Anterior</button>
-                <button id= "nextPg" onclick="nextPage()">Proxima Página</button>
+                <button id= "prevPg" onclick="searchController.prevPage()">Página Anterior</button>
+                <button id= "nextPg" onclick="searchController.nextPage()">Proxima Página</button>
             </div>
             
         </div>
@@ -37,5 +39,10 @@
     <script src="./src/font/controllers/ControllerSearchOMDB.js"></script>
     <script src="./src/font/model/searchOMDB.js"></script>
     <script src="./src/font/views/viewSearchOMDB.js"></script>
+    <script src="./src/font/controllers/redirect.js"></script>
+    <script>
+        const searchController = new SearchController(new SearchAPI(), new SearchView())
+
+    </script>
 </body>
 </html>
