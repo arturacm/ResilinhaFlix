@@ -5,7 +5,9 @@
 body{
     background-image: url("/imagens/bg1.svg");
 }
-
+main{
+    height: calc(100vh - 50px);
+}
 
 .container {
     display: flex;
@@ -97,4 +99,10 @@ footer00 {
 }
 h6{
     text-align: center;
+}
+footer{
+    height: 50px;
+    background-color: #FDCB5E;
+    /* background-image: url("../../imagens/wave1.svg"); */
+    /* text-align: center; */
 }
