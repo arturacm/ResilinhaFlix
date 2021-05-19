@@ -1,9 +1,10 @@
 *, html{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 body{
-    background-image: url("/imagens/bg1.svg");
+    background-image: url("../../imagens/bg1.svg");
 }
 main{
     height: calc(100vh - 50px);
