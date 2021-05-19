@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // console.log(localStorage.getItem("movieID"))
     //let input = document.getElementById("input").value
     let input = localStorage.getItem("movieID")
-    let url = "http://www.omdbapi.com/?apikey=90a81d4f"
+    let url = "https://www.omdbapi.com/?apikey=90a81d4f"
 
     axios.get(url + "&i=" + input) 
     .then(function(response) {
