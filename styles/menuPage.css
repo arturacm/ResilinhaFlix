@@ -56,7 +56,7 @@ img{
 }
 .diversãoGarantida{
     font-family: 'Nunito', sans-serif;
-    font-size: 60pt;
+    font-size: 40pt;
     color: white;
     margin-top: 5%;
     text-align: center;
@@ -75,3 +75,10 @@ img{
     margin-top: 2%;
     margin-left: 60px;
  }
+ h6{
+    text-align: center;
+}
+.footerbg {
+    background-color: #FDCB5E;
+    margin:0px;
+}
