@@ -1,10 +1,7 @@
 body{
-    background-color: blueviolet;
+    background-image: url("/imagens/bg1.svg");
 }
 
-h1{
-    text-align: center;
-}
 
 .container {
     display: flex;
@@ -16,15 +13,49 @@ h1{
     max-width: 10000px;
     
 }
-
+.textoContatos{
+    font-family: 'Chewy', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
 
 .menu{
+    font-family: 'Nunito', sans-serif;
+    color:white;
     text-align: center;
     font-size: 30px;
     padding: 5px ;
-    background-color: yellow;
+
 }
-.menu:hover {
+
+.btn-cor {
+    width: 60%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    background-color: #24292E;
+    color:white;
+    margin-top: 0;
+
+    
+}
+.btn-cor2 {
+    width: 60%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    background-color: #0073B1;
+    color:white;
+    margin-top: 0;
+
+    
+}
+menu:hover {
     text-align: center;
     color: black;
     transition: 3s;
@@ -50,4 +81,8 @@ padding: 20px;
     border: 1px solid #CCCCCC;
     margin: 0 auto;
     max-width: 1500px;
-    font-size: 14px;
+    font-size: 14px;}
+
+.background{
+    background-color: #059DE1;
+}
