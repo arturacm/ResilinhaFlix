@@ -1,4 +1,4 @@
-var url = "http://www.omdbapi.com/?apikey=40078a35";
+var url = "https://www.omdbapi.com/?apikey=40078a35";
 
 
 // Segunda parte: faz a requisição pela API e retorna o objeto
