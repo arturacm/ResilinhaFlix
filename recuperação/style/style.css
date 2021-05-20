@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-image: url("/imagens/bg3.svg");
+    background-image: url("../../imagens/bg3.svg");
     font-family: 'Nunito', sans-serif;
     color:white
 }
