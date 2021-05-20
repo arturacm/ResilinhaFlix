@@ -4,6 +4,7 @@
 }
 body {
     background-image: url("/imagens/bg2.svg");
+    ;
 }
 header{
     height: 50px;
@@ -11,7 +12,6 @@ header{
 }
 main{
     /* height: calc(80vh - 100px); */
-    height: ;
 }
 form{
     display: flex;

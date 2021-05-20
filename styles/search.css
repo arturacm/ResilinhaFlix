@@ -2,13 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    
 }
+
 header{
     height: 50px;
-    background-color: #c4c4c4;    
+    background-color: #059DE1;
+       
 }
 main{
     min-height: calc(100vh - 100px);
+
+}
+body {   
+    background-image: url("/imagens/bg1.svg");
+    background-size: cover;
 }
 .searchBar{
     display: flex;
@@ -16,12 +26,15 @@ main{
     /* margin: 5vh auto; */
     justify-content: center;
     /* width: 40vw */
+    margin: 2vh;
 }
-input, button{
-
+#search {
+    margin-right: 3vh;
+}
+input {
     margin-top: 20px;
     padding-left: 10px;
-    border-radius: 1px solid black;
+    border: 1px solid black;
     border-radius: 15px;
     height: 30px;
 }
@@ -29,30 +42,78 @@ button{
     margin-left: 20px ;
     text-align: center;
     padding: 5px;
+    height: 30px;
+    border-radius: 20px;
 }
-footer{
-    height: 50px;
-    background-color: #C4C4C4;
-    
-}
-
 .searchResult{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 }
-#prevPg, #nextPg{
-    display:none;
-}
-img{
-    margin: 10px
-}
-.searchResultItem{
+
+.searchResultItem {
     display: flex;
     flex-direction: column;
-    background-color: #c4c4c4;
     margin: 10px;
     border-radius: 20px;
     padding: 20px;
+    width: 320px;
+    height: 540px;
+    background-color: rgb(253, 245, 245);
+    min-height: 540px;
+    
 }
+.searchResultItem img {
+    max-width: 320px;
+    min-height: 415px;
+    max-height: 415px;
+    border-radius: 3px;
+
+}
+.searchResultItem h3 {
+    font-size: 1.5rem;
+}
+
+.footerbg{
+    background-color: #FDCB5E;
+    margin: 0px;
+}
+h6{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.background {
+    background-color: #059DE1;
+    
+}
+#botaoHome {
+    margin-left: 120px;
+}
+#botaoPesquisar {
+    border-radius: 20px;
+    width: 12vh;
+    text-align: center;
+    padding: 1px;
+    border: solid black 1px;
+}
+.pageBtns {
+    display: flex;
+    flex-direction: row;
+
+
+}
+#prevPg, #nextPg{
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 20px;
+    width: 20vh;
+    justify-content: center;
+    padding: 1px;
+    background-color: #7DCE94;
+    border: solid black 1px;
+
+}
+
