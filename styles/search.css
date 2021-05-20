@@ -17,7 +17,7 @@ main{
 
 }
 body {   
-    background-image: url("/imagens/bg1.svg");
+    background-image: url("../imagens/bg1.svg");
     background-size: cover;
 }
 .searchBar{
