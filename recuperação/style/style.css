@@ -7,8 +7,12 @@ body {
     font-family: 'Nunito', sans-serif;
     color:white
 }
+main{
+    height: calc(100vh - 370px);
+}
 
 #button{
+    margin: 10px auto ;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     margin-top: 20px;

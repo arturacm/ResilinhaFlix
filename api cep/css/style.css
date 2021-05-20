@@ -8,6 +8,9 @@ body{
     background-image: url("../../imagens/bg1.svg");
     background-size: cover;
 }
+main{
+    height: calc(100vh -300px);
+}
 
 h1{
     font-family: 'Chewy', cursive;
