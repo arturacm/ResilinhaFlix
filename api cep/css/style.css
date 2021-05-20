@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(200, 27, 206);
+    font-family: 'Nunito', sans-serif;
     background-image: url("../../imagens/bg1.svg");
     background-size: cover;
 }
@@ -33,6 +33,7 @@ form input{
 
 }
 #uf{
+    font-family: 'Nunito', sans-serif;
     height:30px;
     width: 22vh;
     padding-right: 0;
@@ -47,18 +48,14 @@ form input{
 .background {
     background-color: #059DE1;
 }
-#botao {
-    width: 22.5vh;
-    height: 30px;
-    margin: 3vh;
-    margin-left: 0;
-    border: #407950;
-    border-radius: 1px solid black;
-    border-radius: 15px;
-    text-align: center;
-    vertical-align: middle;
+.botaoEnviar{
+    margin: 20px auto;
+    height: 60px;
+    border-radius: 50px;
     background-color: #7DCE94;
-    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    border-color: #7DCE94; 
 }
 #logradouro, #complemento {
     margin-left: 1.5vh;
@@ -68,7 +65,7 @@ form input{
 #estado {
     margin-left: 1.6vh;
     margin-right: 2vh;
-    color: rgb(0, 0, 0);
+    color:white;
     font-size: 18px;
     vertical-align: middle;
     width: 7.4vh;
